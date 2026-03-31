@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Galaxy S25 Ultra | The Ultimate Flagship</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <style>
+        /* Global Styles */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        /* Typography & Utilities */
+        .text-gradient {
+            background: linear-gradient(90deg, #4b7bec, #a55eea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+        .bg-black { background-color: #0a0a0a !important; }
+        .text-gray { color: #a0a0a0; }
+        .section-padding { padding: 80px 0; }
+        
+        /* Navbar */
+        .navbar-brand {
+            font-weight: 900;
+            letter-spacing: 2px;
+            font-size: 1.5rem;
+        }
+        
+        /* Hero Section */
+.hero-section {
+    background: linear-gradient(to bottom, rgba(18, 18, 18, 0.7), #121212), 
+                url('https://i.pinimg.com/736x/f9/04/70/f90470d45c23988b751c9a97fffc7c72.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0 130px;
+    text-align: center;
+}
+
+
+        .hero-badge {
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 8px 20px;
+            font-size: 0.9rem;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .hero-title {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+        
+        /* Custom Cards */
+        .card-custom {
+            background-color: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            border-radius: 16px;
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+        .card-custom:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-img-placeholder {
+            height: 200px;
+            background: linear-gradient(180deg, #333 0%, #1a1a1a 100%);
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+        }
+
+        .icon-box {
+            width: 48px;
+            height: 48px;
+            background-color: #0d6efd;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        /* Specs Section */
+        .spec-icon {
+            font-size: 1.5rem;
+            color: #0d6efd;
+            background: #222;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        /* Storage Section */
+        .storage-section {
+            background: linear-gradient(135deg, #111424 0%, #1a1525 100%);
+            border-radius: 20px;
+            margin: 40px 0;
+            padding: 80px 20px;
+        }
+
+        /* Reviews */
+        .star-rating { color: #0d6efd; margin-bottom: 15px; }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #141b3d 0%, #29153d 100%);
+            border-radius: 24px;
+            padding: 80px 40px;
+            text-align: center;
+            margin: 80px 0;
+        }
+
+        /* Footer */
+        footer { border-top: 1px solid #2a2a2a; }
+        .form-control-dark {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            color: white;
+        }
+        .form-control-dark:focus {
+            background-color: #222;
+            border-color: #555;
+            color: white;
+            box-shadow: none;
+        }
+        /* Specific Vibrant Blue Utility */
+.text-vibrant-blue {
+    color: #1e88e5 !important; 
+}
+/* Navigation Hover Effects */
+.nav-link, .nav-icon {
+    transition: color 0.3s ease;
+}
+.nav-link:hover, .nav-icon:hover {
+    color: #1e88e5 !important;
+}
+
+        @media (max-width: 768px) {
+            .hero-title { font-size: 2.5rem; }
+            .storage-section h2 { font-size: 3rem !important; }
+        }
+    </style>
+</head>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Samsung_logo_wordmark.svg/1280px-Samsung_logo_wordmark.svg.png" alt="Samsung Logo" class="img-fluid" style="height: 40px;"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+    <li class="nav-item"><a id="nav-support" class="nav-link text-white px-3" href="#support">Support</a></li>
+    <li class="nav-item"><a id="nav-business" class="nav-link text-white px-3" href="#business">For business</a></li>
+</ul>
+                <div class="d-flex gap-3 align-items-center">
+    <i id="icon-search" class="bi bi-search text-white fs-5 nav-icon" style="cursor: pointer;"></i>
+    <i id="icon-person" class="bi bi-person text-white fs-4 nav-icon" style="cursor: pointer;"></i>
+    <i id="icon-menu" class="bi bi-list text-white fs-2 nav-icon" style="cursor: pointer;"></i>
+</div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-badge text-vibrant-blue border border-primary">
+    <i class="bi bi-stars me-1"></i> The Ultimate Flagship Experience
+</div>
+            <h1 class="hero-title">
+                Galaxy S25 <span class="text-gradient">Ultra</span>
+            </h1>
+            <p class="lead text-gray mb-5 mx-auto" style="max-width: 700px;">
+                Pushing the boundaries of what's possible. Featuring unparalleled AI capabilities, revolutionary camera tech, and the fastest Snapdragon yet.
+            </p>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <button class="btn btn-light rounded-pill px-4 py-2 fw-bold">Pre-order Now ></button>
+                <button class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold" style="background-color: rgba(255,255,255,0.1); border: none;">Learn More ></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding bg-black">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Features that define the future.</h2>
+                <p class="text-gray mx-auto" style="max-width: 600px;">Engineered to perfection, the Galaxy S25 Ultra brings revolutionary upgrades to every aspect of the smartphone experience.</p>
+            </div>
+            
+            <div class="row g-4">
+    <div class="col-md-4">
+        <div class="card-custom">
+            <div class="feature-img-placeholder" style="background: url('https://images.samsung.com/ph/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-sustainability-mo.jpg?imbypass=true'); background-size: cover; background-position: center;"></div>
+            <div class="p-4 pt-0" style="margin-top: -30px;">
+                <div class="icon-box"><i class="bi bi-camera"></i></div>
+                <h4 class="fw-bold mb-3">Pro-Grade Camera System</h4>
+                <p class="text-gray mb-0">Capture the unseen with our new 200MP sensor and enhanced Nightography powered by advanced AI.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card-custom">
+            <div class="feature-img-placeholder" style="background: url('https://s.yimg.com/ny/api/res/1.2/d8XrWbH01GCZsIl_Po_j_A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MA--/https://media.zenfs.com/en/toms_guide_826/870b414547bd57e3646f540fb6d930cc'); background-size: cover; background-position: center;"></div>
+            <div class="p-4 pt-0" style="margin-top: -30px;">
+                <div class="icon-box"><i class="bi bi-pen"></i></div>
+                
+                <h4 class="fw-bold mb-3">The Ultimate Flagship Experience</h4>
+                
+                <p class="text-gray mb-0">Write, sketch, and navigate with ultra-low latency. The built-in S-Pen is more responsive than ever.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card-custom">
+            <div class="feature-img-placeholder" style="background: url('https://images.samsung.com/ph/smartphones/galaxy-s25-ultra/images/galaxy-s25-ultra-features-one-ui-visual-mo.jpg?imbypass=true'); background-size: cover; background-position: center;"></div>
+            <div class="p-4 pt-0" style="margin-top: -30px;">
+                <div class="icon-box"><i class="bi bi-stars"></i></div>
+                <h4 class="fw-bold mb-3">Vivid Dynamic AMOLED 3X</h4>
+                <p class="text-gray mb-0">Experience true brilliance with a 6.8" display peaking at 3000 nits. Perfect visibility, anywhere.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <h2 class="display-4 fw-bold mb-4">Uncompromising Power.</h2>
+                    <p class="text-gray fs-5 mb-0">Beneath the sleek titanium exterior lies a beast of a machine. Equipped with the latest cooling technology and a massive battery, it's designed to handle intense gaming, heavy multitasking, and pro-level content creation without breaking a sweat.</p>
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="d-flex mb-4">
+                        <div class="spec-icon"><i class="bi bi-phone"></i></div>
+                        <div>
+                            <div class="text-gray small">Display</div>
+                            <div class="fw-bold fs-5">6.9" QHD+ Dynamic AMOLED 2X, 120 Hz</div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <div class="spec-icon"><i class="bi bi-cpu"></i></div>
+                        <div>
+                            <div class="text-gray small">Processor</div>
+                            <div class="fw-bold fs-5">Qualcomm Snapdragon 8 Elite for Galaxy</div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <div class="spec-icon"><i class="bi bi-battery-charging"></i></div>
+                        <div>
+                            <div class="text-gray small">Battery</div>
+                            <div class="fw-bold fs-5">5,000 mAh, 45W wired, 25W wireless Fast Charging</div>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <div class="spec-icon"><i class="bi bi-shield-check"></i></div>
+                        <div>
+                            <div class="text-gray small">Durability</div>
+                            <div class="fw-bold fs-5">Titanium frame, Corning Gorilla Glass Victus 2, IP68 rating</div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="spec-icon"><i class="bi bi-wifi"></i></div>
+                        <div>
+                            <div class="text-gray small">Connectivity</div>
+                            <div class="fw-bold fs-5">Integrated S Pen, 8K video recording, 5G, Wi-Fi 7</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="storage-section px-4 px-md-5">
+            <div class="row align-items-center g-5">
+                
+                <div class="col-lg-4 offset-lg-1 text-center text-lg-start">
+                    <h2 class="fw-bold text-white mb-0" style="font-size: 5rem; text-shadow: 0 4px 20px rgba(255,255,255,0.2);">1TB</h2>
+                    <p class="text-gray fw-bold tracking-wide mb-5" style="letter-spacing: 2px;">MAXIMUM STORAGE</p>
+                    
+                    <h2 class="fw-bold text-white mb-0" style="font-size: 4rem; text-shadow: 0 4px 20px rgba(255,255,255,0.2);">16GB</h2>
+                    <p class="text-gray fw-bold tracking-wide mb-0" style="letter-spacing: 2px;">LPDDR5X RAM</p>
+                </div>
+                
+                <div class="col-lg-7">
+                    <div class="p-0 shadow-lg" style="background: rgba(255,255,255,0.03); border-radius: 24px; border: 1px solid #2a2a2a;">
+                        <div class="ratio ratio-16x9" style="border-radius: 16px; overflow: hidden;">
+                            <iframe 
+                                src="C:\Users\marga\OneDrive\Desktop\Webdev-Website-Electronic-Device\assets-A02\YTDown.com_YouTube_Introducing-Galaxy-S25-Ultra-Galaxy-AI-S_Media_3i1OB6wKYms_001_1080p.mp4" 
+                                title="Samsung Galaxy S25 Ultra Video" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="support" class="section-padding">
+    <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Get the most out of your Ultra.</h2>
+                <p class="text-gray">Pro tips and support guides to help you master every feature of your new device.</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card-custom p-4">
+                        <i class="bi bi-lightbulb text-primary fs-3 mb-3 d-block"></i>
+                        <h4 class="fw-bold">Master Galaxy AI</h4>
+                        <p class="text-gray mb-0">Use Circle to Search for instant web results, or let Live Translate break down language barriers in real-time calls.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-custom p-4">
+                        <i class="bi bi-gear text-primary fs-3 mb-3 d-block"></i>
+                        <h4 class="fw-bold">Optimize Battery</h4>
+                        <p class="text-gray mb-0">Enable 'Light Performance Mode' in settings to extend battery life by up to 20% during everyday tasks without noticing a slow down.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-custom p-4">
+                        <i class="bi bi-lightning text-primary fs-3 mb-3 d-block"></i>
+                        <h4 class="fw-bold">Pro Video Recording</h4>
+                        <p class="text-gray mb-0">Switch to Pro Video mode to shoot in 8K at 30fps. Use the new 5x optical lens for incredible cinematic depth of field.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-custom p-4">
+                        <i class="bi bi-book text-primary fs-3 mb-3 d-block"></i>
+                        <h4 class="fw-bold">S-Pen Air Actions</h4>
+                        <p class="text-gray mb-0">Customize S-Pen gestures in Settings > Advanced Features to control your camera, media, and presentations remotely.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding bg-black">
+        <div class="container">
+            <h2 class="display-6 fw-bold text-center mb-5">Acclaimed by the experts.</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card-custom p-4">
+                        <div class="star-rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fs-5 text-white mb-4">"The camera improvements are staggering. Low light photography has never looked this crisp on a smartphone."</p>
+                        <p class="text-gray text-uppercase small mb-0">— Tech Reviewer Weekly</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-custom p-4">
+                        <div class="star-rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fs-5 text-white mb-4">"A true productivity powerhouse. The S-Pen latency is virtually zero, making it feel like writing on real paper."</p>
+                        <p class="text-gray text-uppercase small mb-0">— Digital Creator Mag</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-custom p-4">
+                        <div class="star-rating">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fs-5 text-white mb-4">"Battery life that finally matches the performance. I easily get two days of heavy use."</p>
+                        <br>
+                        <p class="text-gray text-uppercase small mb-0">— Gadget Guru</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="business" class="container">
+    <div class="cta-section">
+            <h2 class="display-4 fw-bold mb-3">Ready to upgrade?</h2>
+            <p class="text-light mb-4 fs-5 mx-auto" style="max-width: 600px;">Join the next generation of mobile technology. Pre-order today and get exclusive launch benefits including double storage and premium care.</p>
+            <button class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold">
+                Buy Now <i class="bi bi-arrow-right ms-2"></i>
+            </button>
+        </div>
+    </section>
+
+    <footer class="bg-black pt-5 pb-4">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-4">
+                    <h4 class="fw-bold mb-3">Galaxy S25 Ultra</h4>
+                    <p class="text-gray pe-lg-4">Experience the pinnacle of smartphone technology. Stay updated with the latest news and firmware updates.</p>
+                    <div class="d-flex mt-4 gap-2 w-100">
+    <input type="email" 
+           placeholder="Enter your email" 
+           class="w-full bg-neutral-900 border border-neutral-800 rounded-lg py-3 pl-10 pr-4 text-white focus:outline-none focus:border-blue-500 transition-colors"
+           style="background-color: #171717; border: 1px solid #444; border-radius: 0.5rem; padding: 0.75rem 1rem; color: #ffffff; width: 100%; outline: none; transition: border-color 0.3s;" 
+           onfocus="this.style.borderColor='#3b82f6'" 
+           onblur="this.style.borderColor='#444'">
+    <button class="btn btn-light fw-bold px-4" style="border-radius: 0.5rem;">Subscribe</button>
+</div>
+                </div>
+                <div class="col-lg-2 offset-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Support</h5>
+                    <ul class="list-unstyled text-gray">
+                        <li class="mb-2"><a href="#" class="text-gray text-decoration-none">User Manuals</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray text-decoration-none">Community Forum</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray text-decoration-none">Warranty Info</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray text-decoration-none">Contact Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Legal</h5>
+                    <ul class="list-unstyled text-gray">
+                        <li class="mb-2"><a href="#" class="text-gray text-decoration-none">Terms of Service</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray text-decoration-none">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray text-decoration-none">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center text-gray small pt-4" style="border-top: 1px solid #222;">
+                © 2026 Smartphone Fan Page. Not officially affiliated with Samsung Electronics. "Samsung" and "Galaxy S" are registered trademarks of Samsung Electronics Co., Ltd.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Grouping all clickable navigation elements together
+        const navElements = [
+            document.getElementById("nav-support"),
+            document.getElementById("nav-business"),
+            document.getElementById("icon-search"),
+            document.getElementById("icon-person"),
+            document.getElementById("icon-menu")
+        ];
+
+        navElements.forEach(item => {
+            if (item) {
+                item.addEventListener("click", function() {
+                    // First, remove vibrant blue from ALL items and reset to white
+                    navElements.forEach(nav => {
+                        if (nav) {
+                            nav.classList.remove("text-vibrant-blue");
+                            nav.classList.add("text-white");
+                        }
+                    });
+                    
+                    // Second, add the vibrant blue to ONLY the item that was just clicked
+                    this.classList.remove("text-white");
+                    this.classList.add("text-vibrant-blue");
+                });
+            }
+        });
+    });
+</script>
+
+
+</lang>
+</body>
+</html>
