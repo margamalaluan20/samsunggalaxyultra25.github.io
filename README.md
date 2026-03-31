@@ -8,7 +8,7 @@ You can view the live website here:
 
 ---
 
-## 📱 Project Overview
+## 📱 Overview
 This activity was designed to practice advanced web development layouts and responsive design. The goal was to create a visually appealing product landing page that mimics a premium brand experience.
 
 ### Key Features:
@@ -33,4 +33,4 @@ This activity was designed to practice advanced web development layouts and resp
 **Marga Malaluan** Student | Diploma in Information Technology  
 *Polytechnic University of the Philippines*
 
-This project is part of my personal portfolio. You can see more of my work at [margamalaluan.github.io](https://margamalaluan.github.io).
+This activity is part of my personal portfolio. You can see more of my work at [margamalaluan.github.io](https://margamalaluan.github.io).
