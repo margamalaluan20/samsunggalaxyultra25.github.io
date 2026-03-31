@@ -1,4 +1,4 @@
-# Activity A02: Samsung Galaxy S25 Ultra Promotional Page
+# Activity A02: Samsung Galaxy S25 Ultra One Page Only
 
 A sleek, responsive, and modern single-page promotional website showcasing the flagship **Samsung Galaxy S25 Ultra**. This project focuses on high-end UI design, featuring custom gradients, interactive navigation, and integrated media.
 
