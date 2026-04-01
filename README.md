@@ -30,7 +30,8 @@ This activity was designed to practice advanced web development layouts and resp
 
 ## 👤 Author
 
-**Marga Malaluan** Student | Diploma in Information Technology  
+**Marga Malaluan** 
+Student | Diploma in Information Technology  
 *Polytechnic University of the Philippines*
 
 This activity is part of my personal portfolio. You can see more of my work at [margamalaluan.github.io](https://margamalaluan.github.io).
