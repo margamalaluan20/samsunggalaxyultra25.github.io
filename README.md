@@ -32,6 +32,6 @@ This activity was designed to practice advanced web development layouts and resp
 
 **Marga Malaluan** 
 Student | Diploma in Information Technology  
-*Polytechnic University of the Philippines*
+*Polytechnic University of the Philippines - Sto. Tomas Campus*
 
 This activity is part of my personal portfolio. You can see more of my work at [margamalaluan.github.io](https://margamalaluan.github.io).
